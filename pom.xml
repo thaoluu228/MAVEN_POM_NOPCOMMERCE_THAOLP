@@ -12,7 +12,6 @@
 	<properties>
 		<webdriver.version>3.141.59</webdriver.version>
 		<testng.version>6.9.10</testng.version>
-		<jackson.version>2.9.4</jackson.version>
 		<webdrivermanager.version>4.0.0</webdrivermanager.version>
 	</properties>
 
@@ -53,13 +52,13 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>${jackson.version}</version>
+			<version>2.9.10</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>${jackson.version}</version>
+			<version>2.9.10.4</version>
 		</dependency>
 
         <dependency>
